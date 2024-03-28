@@ -6,7 +6,7 @@ on:
       - master
 
   schedule:
-    - cron: '*/28 * * * *' # Runs every 28 minutes
+    - cron: '*/26 * * * *' # Runs every 26 minutes
 
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
